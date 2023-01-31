@@ -28,6 +28,13 @@ body {
 	line-height: 1;
 }
 
+[data-content] {
+	display: none;
+}
+.active[data-content] {
+	display: block;
+}
+
 ol, ul {
 	list-style: none;
 }
